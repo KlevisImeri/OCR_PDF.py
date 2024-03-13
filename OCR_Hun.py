@@ -74,7 +74,7 @@ label4 = Label(window, bg='#202124', fg='#d6d6d7', text = 'DPI', font=('Product 
 label4.place(x=403,y=200)
 options=[300,350,400,450,500,600,800]
 dropMeny = StringVar()
-dropMeny.set(options[1])
+dropMeny.set(options[2])
 comboBox = OptionMenu(window, dropMeny, *options)
 comboBox.place(x=380,y=240)
 comboBox.config(bg='#a4ade9', fg='#202124',borderwidth=0,font=('Product Sans', 25), highlightbackground='#a4ade9')
